@@ -4,18 +4,46 @@
 Section: misc
 Priority: optional
 # Homepage: <enter URL here; no default>
-Standards-Version: 3.9.2
+Standards-Version: 4.1.4
 
-Package: <package name; defaults to equivs-dummy>
-# Version: <enter version here; defaults to 1.0>
-# Maintainer: Your Name <yourname@example.com>
+Package: texlive-local
+Version: 2018-1
+Maintainer: Andreas Scherer <https://ascherer.github.io>
 # Pre-Depends: <comma-separated list of packages>
-# Depends: <comma-separated list of packages>
+Depends: freeglut3
 # Recommends: <comma-separated list of packages>
 # Suggests: <comma-separated list of packages>
-# Provides: <comma-separated list of packages>
+Provides: chktex, biblatex, biblatex-dw, cm-super, cm-super-minimal, context,
+ dvidvi, dvipng, feynmf, fragmaster, jadetex, lacheck, latex-beamer,
+ latex-cjk-all, latex-cjk-chinese, latex-cjk-chinese-arphic-bkai00mp,
+ latex-cjk-chinese-arphic-bsmi00lp, latex-cjk-chinese-arphic-gbsn00lp,
+ latex-cjk-chinese-arphic-gkai00mp, latex-cjk-common, latex-cjk-japanese,
+ latex-cjk-japanese-wadalab, latex-cjk-korean, latex-cjk-thai, latexdiff,
+ latexmk, latex-sanskrit, latex-xcolor, lcdf-typetools, lmodern, luatex,
+ musixtex, passivetex, pgf, preview-latex-style, prosper, ps2eps, psutils,
+ purifyeps, t1utils, tex4ht, tex4ht-common, tex-gyre, texlive, texlive-base,
+ texlive-bibtex-extra, texlive-binaries, texlive-common, texlive-extra-utils,
+ texlive-fonts-extra, texlive-fonts-extra-doc, texlive-fonts-recommended,
+ texlive-fonts-recommended-doc, texlive-font-utils, texlive-formats-extra,
+ texlive-games, texlive-generic-extra, texlive-generic-recommended,
+ texlive-humanities, texlive-humanities-doc, texlive-lang-african,
+ texlive-lang-all, texlive-lang-arabic, texlive-lang-cjk, texlive-lang-cyrillic,
+ texlive-lang-czechslovak, texlive-lang-english, texlive-lang-european,
+ texlive-lang-japanese, texlive-lang-chinese, texlive-lang-korean,
+ texlive-lang-french, texlive-lang-german, texlive-lang-greek,
+ texlive-lang-indic, texlive-lang-italian, texlive-lang-other,
+ texlive-lang-polish, texlive-lang-portuguese, texlive-lang-spanish,
+ texlive-latex-base, texlive-latex-base-doc, texlive-latex-extra,
+ texlive-latex-extra-doc, texlive-latex-recommended,
+ texlive-latex-recommended-doc, texlive-luatex, texlive-math-extra,
+ texlive-metapost, texlive-metapost-doc, texlive-music,
+ texlive-omega, texlive-pictures, texlive-pictures-doc, texlive-plain-extra,
+ texlive-plain-generic,
+ texlive-pstricks, texlive-pstricks-doc, texlive-publishers,
+ texlive-publishers-doc, texlive-science, texlive-science-doc, texlive-xetex,
+ thailatex, tipa, tipa-doc, xindy, xindy-rules, xmltex, asymptote, texinfo
 # Replaces: <comma-separated list of packages>
-# Architecture: all
+Architecture: all
 # Multi-Arch: <one of: foreign|same|allowed>
 # Copyright: <copyright file; defaults to GPL2>
 # Changelog: <changelog file; defaults to a generic changelog>
@@ -23,7 +51,6 @@ Package: <package name; defaults to equivs-dummy>
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: <short description; defaults to some wise words> 
- long description and info
- .
- second paragraph
+Description: My local installation of TeX Live 2018.
+ A full "vanilla" TeX Live 2018
+ http://tug.org/texlive/debian#vanilla
