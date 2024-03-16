@@ -6,7 +6,7 @@ Priority: optional
 # Homepage: <enter URL here; no default>
 Standards-Version: 4.1.4
 Package: texlive-local
-Version: 2023-1
+Version: 2024-1
 Maintainer: Andreas Scherer <https://ascherer.github.io>
 # Pre-Depends: <comma-separated list of packages>
 Depends: freeglut3
@@ -50,6 +50,6 @@ Architecture: all
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: My local installation of TeX Live 2023.
- A full "vanilla" TeX Live 2023
+Description: My local installation of TeX Live 2024.
+ A full "vanilla" TeX Live 2024
  http://tug.org/texlive/debian#vanilla
